@@ -13,6 +13,9 @@ return [
         'AssetManager',
         'Application',
         'ZF3BuchViewHelper',
+        'ZendDeveloperTools',
+        'BjyProfiler',
+        'SanSessionToolbar',
     ],
     'module_listener_options' => [
         'config_glob_paths'        => [
