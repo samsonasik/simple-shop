@@ -1,0 +1,35 @@
+{
+  "name": "zf3buch/simple-shop",
+  "description": "Simple Shop Training Application for the Zend Framework 3",
+  "license": "The MIT License (MIT)",
+  "authors": [
+    {
+      "name": "Ralf Eggert",
+      "email": "ralf@travello.de",
+      "homepage": "http://www.travello.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zendframework": "~2.5",
+    "zf3buch/view-helper-module": "dev-master",
+    "rwoverdijk/assetmanager": "~1.4",
+    "twitter/bootstrap": "~3.3",
+    "fortawesome/font-awesome": "~4.4",
+    "frameworks/jquery": "~1.11"
+  },
+  "require-dev": {
+    "zendframework/zend-developer-tools": "dev-master",
+    "bjyoungblood/bjy-profiler": "~1.0",
+    "san/san-session-toolbar": "~0.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Project": "script/"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": "Project\\Composer::postUpdate"
+  }
+}

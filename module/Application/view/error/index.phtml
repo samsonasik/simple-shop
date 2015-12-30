@@ -1,0 +1,23 @@
+<?php
+/**
+ * ZF3 book Simple Shop Training Application
+ *
+ * @package    Application
+ * @author     Ralf Eggert <ralf@travello.de>
+ * @link       https://github.com/zf3buch/simple-shop
+ * @license    http://opensource.org/licenses/MIT The MIT License (MIT)
+ */
+$this->headTitle('application_title_error_index');
+$this->h1('application_h1_error_index');
+?>
+<div class="jumbotron">
+    <h2><?php echo $this->translate('application_h2_error_index'); ?></h2>
+    <p>
+        <?php echo $this->translate('application_message_try_later') ?>:
+    </p>
+    <p class="pull-center">
+        <a href="/" class="btn btn-success">
+            <?php echo $this->translate('application_action_homepage'); ?>
+        </a>
+    </p>
+</div>
