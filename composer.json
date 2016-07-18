@@ -22,7 +22,7 @@
   "require-dev": {
     "zendframework/zend-developer-tools": "dev-master",
     "bjyoungblood/bjy-profiler": "~1.0",
-    "san/san-session-toolbar": "~0.2"
+    "san/san-session-toolbar": "^0.6 | ^1.0"
   },
   "autoload": {
     "psr-0": {
